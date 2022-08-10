@@ -1,0 +1,47 @@
+.plano{
+    display: block;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.btn{
+    max-width: 12vw;
+    min-height: 5vh;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 13px;
+    padding: 10px;
+    background-color: rgb(45, 45, 150);
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(29, 29, 97);
+    transition: 0.5s;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+}
+.bottom img{
+    width: 15vw;
+    height: 20vh;
+}
+
+@media screen and (max-width: 745px) {
+    .btn{
+        max-width: 13vw;
+        font-size: 10px;
+    }
+}
